@@ -7,22 +7,7 @@ import {Link} from 'react-router-dom'
 const Blog = () => {
     return (
         <React.Fragment>
-            <Header page='blog'/>
-            {/* <div style={{"text-align":"center"}}>
-                <h1 className="title blog-title"> Errr... My Blog isn't ready yet.</h1>
-                <Illustration  className="blog-svg-illustration"/>
-                
-                <p className="blog-desc" style={{"margin-bottom":0}}>
-                    I am still working to get my blog up and running where I intend to constantly share my thoughts, ideas and exploits on/with various web technologies and all things tech.
-                </p>
-                <p className="blog-desc">
-                Meanwhile, you can check out some of the projects I have done.
-                </p>
-                <Link to="/portfolio">
-                <button style={{"margin-bottom":50}} className="btn btn-blue" type="button">See my Portfolio</button>
-                </Link>
-            </div> */}
-
+            <Header page='blog'/>c
              <section className="blog-wrapper">
                     <div className="custom-container">
                         <div className="row align-items-center">
