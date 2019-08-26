@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const Blog = () => {
     return (
         <React.Fragment>
-            <Header page='blog'/>c
+            <Header page='blog'/>
              <section className="blog-wrapper">
                     <div className="custom-container">
                         <div className="row align-items-center">
