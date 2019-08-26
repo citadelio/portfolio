@@ -1,0 +1,31 @@
+{
+  "short_name": "Hussein",
+  "name": "Hussein Warrake - PortFolio site ",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "manifest-logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "manifest-logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "manifest-logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }	    
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#fff",
+  "description": "A Software Engineer's Portfolio Website for Hussein Warrake"
+}
