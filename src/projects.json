@@ -1,0 +1,75 @@
+{
+    "projects" : [
+        {
+            "id" : "1",
+            "name" : "NebulaPay",
+            "tagline" : "Secure Conversational Payments just got easier",
+            "short_desc" : "Social Payment ChatBot",
+            "images" : ["nebulapay-mobile.PNG", "nebulapay.PNG"],
+            "metadata" : [
+              
+                {
+                    "title" : "Idea",
+                    "details" : "Neb lorem20"
+                }
+            ],
+            "process": [ "Wireframe", "Design", "Develop", "Bug Test", "Launch"],
+            "role" : "Front end ",
+            "client" : "Total E&P",
+            "date": "20 Jan 2019",
+            "link" : "https://messenger.com/t/nebulapay",
+            "categories"  : "Website, Fintech, ChatApp"
+        },
+        {
+            "id" : "2",
+            "name" : "KetMart",
+            "tagline" : "Shop online with confidence on KetMart",
+            "short_desc" : "eCommerce Website",
+            "images" : [ "ketmart.PNG", "ketmart.PNG", "ketmart-mobile.PNG"],
+            "metadata" : [
+                {
+                    "title" : "Task",
+                    "details" : "Ket lorem20"
+                },
+                {
+                    "title" : "Brand",
+                    "details" : "Ket lorem20"
+                },
+                {
+                    "title" : "Idea",
+                    "details" : "Ket lorem20"
+                }
+            ],
+            "process": ["Sketch", "Design", "Develop", "Bug Test", "Launch"],
+            "role" : "Front end ",
+            "client" : "Total E&P",
+            "date": "20 Jan 2019",
+            "link" : "https://messenger.com/t/nebulapay",
+            "categories"  : "Website, eCommerce"
+        },
+        {
+            "id" : "3",
+            "name" : "TestOnion",
+            "tagline" : "Avoid the hassle of organising tests when recruiting",
+            "short_desc" : "Testing & Assesment Tool",
+            "images" : [ "testonion.PNG", "testonion.PNG", "testonion-mobile.PNG"],
+            "metadata" : [
+                {
+                    "title" : "Task",
+                    "details" : "TEstOnion lorem20"
+                },
+                
+                {
+                    "title" : "Idea",
+                    "details" : "TEstOnion lorem20"
+                }
+            ],
+            "process": ["Sketch", "Wireframe", "Design", "Launch"],
+            "role" : "Front end ",
+            "client" : "Total E&P",
+            "date": "20 Jan 2019",
+            "link" : "https://messenger.com/t/nebulapay",
+            "categories"  : "Website, Educational, Recruitment"
+        }
+    ]
+}

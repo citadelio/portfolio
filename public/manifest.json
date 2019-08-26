@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Hussein",
+  "name": "Hussein Warrake - PortFolio site ",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,24 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "manifest-logo64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "manifest-logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "manifest-logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }	    
   ],
-  "start_url": ".",
+  "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#6c63ff",
+  "background_color": "#fff",
+  "description": "A Software Engineer's Portfolio Website for Hussein Warrake"
 }
