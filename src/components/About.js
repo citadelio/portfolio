@@ -65,7 +65,7 @@ const About = () => {
 							</div>
 							<div className="col-md-6">
 								<h3 className="mb-3">Product Design</h3>
-								<p className="mb-5">So, I'm gradually making a transition into product design, basically because it is important for business to build customer centered products that meets the uderlying needs that these customers dont even know they have until they see such products.</p>
+								<p className="mb-5">So, I'm gradually making a transition into product design, basically because it is important for businesses to build customer centered products that meets the uderlying needs that these customers dont even know they have until they see such products.</p>
 							</div>
 						</div>
 					</div>
