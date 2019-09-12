@@ -1,5 +1,5 @@
 {
-  "short_name": "Hussein",
+  "short_name": "Hussein's PortFolio",
   "name": "Hussein Warrake - PortFolio site ",
   "icons": [
     {
@@ -26,6 +26,6 @@
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#6c63ff",
-  "background_color": "#fff",
-  "description": "A Software Engineer's Portfolio Website for Hussein Warrake"
+  "background_color": "#6c63ff",
+  "description": "Hussein Warrake :: Software Engineer | Tech Enthusiast | Gadget Lover"
 }

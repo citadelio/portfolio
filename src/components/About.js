@@ -9,7 +9,13 @@ const About = () => {
             <section className="module page-head">
                 <div className="mini-container">
                     <p className="sub-head" style={{textTransform:"inherit"}}>A little about me</p>
-                    <p className="about-mantra">I love creating <b style={{fontWeight:600}}>fast</b> and <b style={{fontWeight:600}}>engaging</b> experiences on the web. That explains my love for <b style={{fontWeight:600}}>PWA's</b>.</p>
+                    <p className="about-mantra">I am passionate about computer programming. It’s the one thing I think I could do for free. </p>
+
+					<p>Cool technologies, cooler gadgets, processing power, plenty of RAM, a clear plan, internet access, headphones and it’s a party for me! </p>
+					
+					<p>I love to take code to production… I love the ‘god’ feeling I get when I see someone served by my innovation.
+					</p>
+
                 </div>
             </section>
 
@@ -24,10 +30,16 @@ const About = () => {
 			<div className="about-tiles about-desc">
 				<div className="row">
 					<div className="col-md-4">
-						<h2 className="mb-5">About</h2>
+						<h2 className="mb-5">About Hussein</h2>
 					</div>
 					<div className="col-md-8">
-						<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Raw denim you probably haven't heard of them jean shorts Austin.</p>
+						<p>I'm a Software developer based in Port Harcourt, Nigeria.</p>
+						
+						<p> Growing up during the early years of broadband penetration in Nigeria, My Dad had just got this new mobile phone with a 2G internet connection. I'll frequently take his phone without his knowledge and surf through myriads of contents on the internet (Most time's I got busted when the phone rings, until I learnt there was a mute setting). That little feature phone pricked my interest for Technology, the Internet and Softwares </p>
+						<br/>
+						<p>
+							Several years later, I had gotten myself a PC, taught myself to code, and was fascinated by how powerful technology can be in changing how people live their lives. Today, I am helping drive that change by creating truly engaging and user centered experiences on the Web. 
+						</p>
 					</div>
 				</div>
 			</div>
@@ -35,33 +47,21 @@ const About = () => {
 			<div className="about-tiles about-services">
 				<div className="row">
 					<div className="col-md-4">
-						<h2 className="mb-5">Services</h2>
+						<h2 className="mb-5">What I do</h2>
 					</div>
 					<div className="col-md-8">
 						<div className="row">
 							<div className="col-md-6">
-								<h3 className="mb-3">Graphic Design</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-							<div className="col-md-6">
 								<h3 className="mb-3">Web Development</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
+								<p className="mb-5">I build responsive websites that are perfomant and scalable</p>
 							</div>
 							<div className="col-md-6">
-								<h3 className="mb-3">Media Marketing</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
+								<h3 className="mb-3">Social Media Marketing</h3>
+								<p className="mb-5">Giving you brand visibility and online prescence </p>
 							</div>
 							<div className="col-md-6">
-								<h3 className="mb-3">Advertising</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-							<div className="col-md-6">
-								<h3 className="mb-3">Game Development</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-							<div className="col-md-6">
-								<h3 className="mb-3">Analytics</h3>
-								<p className="mb-5">Modern and mobile-ready website that will help of your marketing.</p>
+								<h3 className="mb-3">Product Design</h3>
+								<p className="mb-5">So, I'm gradually making a transition into product design, basically because it is important for business to build customer centered products that meets the uderlying needs that these customers dont even know they have until they see such products.</p>
 							</div>
 						</div>
 					</div>
@@ -71,7 +71,7 @@ const About = () => {
 			<div className="about-tiles about-skills">
 				<div className="row">
 					<div className="col-md-4">
-						<h2 className="mb-5">Skills</h2>
+						<h2 className="mb-5">Tech Skills</h2>
 					</div>
 					<div className="col-md-8">
 						<div className="row">
@@ -114,7 +114,7 @@ const About = () => {
 								</div>
 							</div>
                             	
-							<div className="col-sm-3 col-6" style={{color:"red"}}>
+							<div className="col-sm-3 col-6">
 								<div className="tiles">
 									<i className="fab fa-php"></i>
 									<span>PHP</span>

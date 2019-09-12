@@ -9,8 +9,8 @@ const Footer = () => {
 				<div className="col-md-6">
 					<div className="copyright">
 						<p className="footerLogo">
-							<img alt="" src="/hussein-logo64.PNG" style={{width:50}}/>
-							<span>Port Harcourt, Nigeria.</span>
+							<img alt="" src="/hussein-logo64.PNG" style={{width:30, marginRight:3}}/>
+							<span>Software Engineer | Tech Enthusiast | Gadget Lover</span>
 						</p>
 						{/* <p>&#169; {(new Date()).getFullYear()} Hussein Warrake</p> */}
 					</div>

@@ -12,7 +12,7 @@ const Home = () => {
 		<div className="custom-container">
 			<div className="section-head">
 				<h1>I build scalable digital solutions.</h1>
-				<p className="section-text">Hussein is a Software developer with a knack for creating engaging and performant web applications posessing the very best of aesthetics and functionality. </p>
+				<p className="section-text">Hussein is a software developer with a knack for creating engaging and immersive experience on the Web.</p>
 				<div className="intro-btns">
 					<Link to="/about" className="btn btn-blue more-abt">More about me</Link>
 					<Link to="/portfolio" className="btn btn-link">See my Portfolio</Link>

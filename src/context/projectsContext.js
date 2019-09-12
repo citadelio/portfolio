@@ -6,7 +6,6 @@ export const ProjectsContext = createContext();
  const ProjectsContextProvider = ({children}) => {
     return (
         <ProjectsContext.Provider value={portfolio} >
-        {/* {console.log(ProjectsContext)} */}
             {children}
       </ProjectsContext.Provider>
     )

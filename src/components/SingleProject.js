@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import {ProjectsContext} from '../context/projectsContext'
 
  const SingleProject = ({match}) => {
-	 let thisProject;
+	let thisProject;
 	 const projects = useContext(ProjectsContext)
      const [currentProject, setCurrentProject] = useState({})
      const [metaData, setmetaData] = useState('')

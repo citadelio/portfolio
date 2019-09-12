@@ -3,72 +3,61 @@
         {
             "id" : "1",
             "name" : "NebulaPay",
-            "tagline" : "Secure Conversational Payments just got easier",
+            "tagline" : "NebulaPay is a Secure Conversational Payment ChatBot ",
             "short_desc" : "Social Payment ChatBot",
             "images" : ["nebulapay-mobile.PNG", "nebulapay.PNG"],
             "metadata" : [
               
                 {
                     "title" : "Idea",
-                    "details" : "Neb lorem20"
+                    "details" : "To allow both banked and unbanked Nigerians seamlessly carry out financial transactions and payments across different banking platforms and from convieniently from their social media accounts. NebulaPay is currently available on Messenger and on Skype "
                 }
             ],
-            "process": [ "Wireframe", "Design", "Develop", "Bug Test", "Launch"],
-            "role" : "Front end ",
-            "client" : "Total E&P",
-            "date": "20 Jan 2019",
+            "process": [ "Design", "Develop", "Bug Test", "Launch"],
+            "role" : "Back End",
+            "client" : "NebulaPay Technologies",
+            "date": "Jan 2019",
             "link" : "https://messenger.com/t/nebulapay",
             "categories"  : "Website, Fintech, ChatApp"
         },
         {
             "id" : "2",
             "name" : "KetMart",
-            "tagline" : "Shop online with confidence on KetMart",
+            "tagline" : "eCommerce website with a loyalty feature",
             "short_desc" : "eCommerce Website",
             "images" : [ "ketmart.PNG", "ketmart.PNG", "ketmart-mobile.PNG"],
             "metadata" : [
                 {
-                    "title" : "Task",
-                    "details" : "Ket lorem20"
-                },
-                {
-                    "title" : "Brand",
-                    "details" : "Ket lorem20"
-                },
-                {
                     "title" : "Idea",
-                    "details" : "Ket lorem20"
+                    "details" : "eCommerce site that allows people list products and receive payments online."
                 }
+               
             ],
-            "process": ["Sketch", "Design", "Develop", "Bug Test", "Launch"],
-            "role" : "Front end ",
+            "process": ["Sketch",  "Wireframe","Design", "Develop", "Bug Test", "Launch"],
+            "role" : "Front & Back end",
             "client" : "Total E&P",
-            "date": "20 Jan 2019",
-            "link" : "https://messenger.com/t/nebulapay",
+            "date": "Aug 2019",
+            "link" : "https://www.ketmart.com/",
             "categories"  : "Website, eCommerce"
         },
         {
             "id" : "3",
             "name" : "TestOnion",
-            "tagline" : "Avoid the hassle of organising tests when recruiting",
+            "tagline" : "Online testing platform for scheduling tests and grading candidates",
             "short_desc" : "Testing & Assesment Tool",
             "images" : [ "testonion.PNG", "testonion.PNG", "testonion-mobile.PNG"],
             "metadata" : [
-                {
-                    "title" : "Task",
-                    "details" : "TEstOnion lorem20"
-                },
                 
                 {
                     "title" : "Idea",
-                    "details" : "TEstOnion lorem20"
+                    "details" : "Online testing platform that lets organisations schedule test for candidates and share links to candidates who can take the scheduled test from anywhere. The tests are graded instantly and Organisations can see the results in real time."
                 }
             ],
-            "process": ["Sketch", "Wireframe", "Design", "Launch"],
-            "role" : "Front end ",
-            "client" : "Total E&P",
-            "date": "20 Jan 2019",
-            "link" : "https://messenger.com/t/nebulapay",
+            "process": ["Sketch", "Wireframe", "Design",  "Develop", "Bug Test", "Launch"],
+            "role" : "Front & Back end ",
+            "client" : "Maventeq Systems",
+            "date": "Apr 2019",
+            "link" : "https://www.testonion.com/",
             "categories"  : "Website, Educational, Recruitment"
         }
     ]

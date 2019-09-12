@@ -1,4 +1,4 @@
-const cachename = "hwstatic-v1";
+const cachename = "hwstatic-v5";
 const precache = [
     './',
     './index.html',
@@ -22,7 +22,6 @@ self.addEventListener('install', (e)=>{
     e.waitUntil(
         caches.open(cachename)
                 .then( cache =>{
-                    console.log('SW installed')
                     cache.addAll(precache)
                 })
     )
@@ -48,8 +47,7 @@ self.addEventListener('fetch', (e)=>{
         caches.match(e.request)
                 .then(cachedResponse => {
                     if(cachedResponse){
-                        console.log(cachedResponse)
-                        //  return cachedResponse
+                         return cachedResponse
                     }
                       return  fetch(e.request)
                         .then(serverResponse=>{
