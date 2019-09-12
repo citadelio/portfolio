@@ -1,4 +1,4 @@
-const cachename = "hwstatic-v5";
+const cachename = "hwstatic-v0";
 const precache = [
     './',
     './index.html',
