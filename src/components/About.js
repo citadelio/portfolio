@@ -40,6 +40,10 @@ const About = () => {
 						<p>
 							Several years later, I had gotten myself a PC, taught myself to code, and was fascinated by how powerful technology can be in changing how people live their lives. Today, I am helping drive that change by creating truly engaging and user centered experiences on the Web. 
 						</p>
+						<br/>
+						<p>
+							One of such technologies that endears to me is the development of Progressive Web Apps <b>(PWA's)</b>. PWA's are Fast, Lightweight, Engaing, Installable without taking much disk space, can work offline and allows for push messaging. Thus it is indeed the technology that'll be adopted by most of the <b>Next Billion Users</b> to come online. 
+						</p>
 					</div>
 				</div>
 			</div>
