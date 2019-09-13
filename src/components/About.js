@@ -57,7 +57,7 @@ const About = () => {
 						<div className="row">
 							<div className="col-md-6">
 								<h3 className="mb-3">Web Development</h3>
-								<p className="mb-5">I build responsive websites that are highly perfomant and scalable</p>
+								<p className="mb-5">I build responsive websites that are highly performant and scalable</p>
 							</div>
 							<div className="col-md-6">
 								<h3 className="mb-3">Social Media Marketing</h3>
