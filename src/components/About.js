@@ -23,7 +23,7 @@ const About = () => {
 	<section className="about-wrapper">
 		<div className="custom-container">
 			<div className="about-banner" id="parallax">
-				<img className="d-none" src="/assets/images/husseinwarrake.jpg" alt="Hussein Warrake"/>
+				<img className="d-none" src="/assets/images/hussein.jpeg" alt="Hussein Warrake"/>
 			</div>
 
 
@@ -109,6 +109,12 @@ const About = () => {
 								<div className="tiles">
 									<i className="fab fa-react"></i>
 									<span>React</span>
+								</div>
+							</div>
+							<div className="col-sm-3 col-6">
+								<div className="tiles">
+									<i className="fab fa-react"></i>
+									<span>React Native</span>
 								</div>
 							</div>
 							<div className="col-sm-3 col-6">

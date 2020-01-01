@@ -25,7 +25,7 @@ const Portfolio = () => {
 					<li className="list-item" key={project.id} data-groups="all slideshow">
 					<Link to={`/portfolio/${encodeURI((project.name).toLowerCase())}`}>
 					  <div className="list-item-img">
-						<img src={`./assets/images/portfolio/${project.images[0]}`} alt="p1" />
+						<img src={`./assets/images/portfolio/${project.images[0]}`} alt={`${project.images[0]}`} />
 					  </div>
 					  <div className="figcaption">
 						<div className="caption-inner">
