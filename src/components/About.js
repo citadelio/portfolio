@@ -121,12 +121,7 @@ const About = () => {
 									<span>React Native</span>
 								</div>
 							</div>
-							<div className="col-sm-3 col-6">
-								<div className="tiles">
-									<i className="fab fa-redux"></i>
-									<span>Redux</span>
-								</div>
-							</div>
+							
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
 									<i className="fab fa-node-js"></i>
