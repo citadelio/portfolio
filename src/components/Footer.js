@@ -18,11 +18,18 @@ const Footer = () => {
 				<div className="col-md-6">
 					<div className="footer-social text-right">
 						<ul className="list-inline">
-							<li className="list-inline-item"><a href="https://github.com/citadelio"><i className="fab fa-github"></i></a></li>
-							<li className="list-inline-item"><a href="https://www.facebook.com/Warrake.H"><i className="fab fa-facebook"></i></a></li>
-							<li className="list-inline-item"><a href="https://twitter.com/Citadel50"><i className="fab fa-twitter"></i></a></li>
-							<li className="list-inline-item"><a href="https://wa.me/2349039951233?text=Hi%20Hussein,%20I'm%20coming%20from%20your%20personal%20website%20-ENTER%20YOUR%20MESSAGE%20HERE-"><i className="fab fa-whatsapp"></i></a></li>
-                            
+							<li className="list-inline-item">
+								<a href="tel:2349039951233" style={{fontSize:16}}> 
+									(234) 903 9951 233
+								</a>
+							</li>
+							|
+							<li className="list-inline-item">
+								<a href="mailto:husseinwarrake@gmail.com" style={{fontSize:16}}>
+									husseinwarrake@gmail.com
+								</a>
+							</li>
+							
                             
 						</ul>
 					</div>
