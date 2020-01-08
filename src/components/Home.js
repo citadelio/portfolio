@@ -4,7 +4,7 @@ import Footer from './Footer'
 import {Link} from 'react-router-dom'
 const Home = () => {
     return (
-        <React.Fragment>
+        <>
           
             <Header stroke='header-clip' page='home' />
 
@@ -12,7 +12,7 @@ const Home = () => {
 		<div className="custom-container">
 			<div className="section-head">
 				<h1>I build scalable digital solutions.</h1>
-				<p className="section-text">Hussein is a software developer with a knack for creating engaging and immersive experience on the Web.</p>
+				<p className="section-text">Hussein is a software developer with a knack for creating engaging and immersive experience on the Web and on Mobile.</p>
 				<div className="intro-btns">
 					<Link to="/about" className="btn btn-blue more-abt">More about me</Link>
 					<Link to="/portfolio" className="btn btn-link">See my Portfolio</Link>
@@ -57,7 +57,7 @@ const Home = () => {
 
     
 <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 

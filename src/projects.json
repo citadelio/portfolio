@@ -62,10 +62,29 @@
         },
         {
             "id" : "4",
+            "name" : "Payperless",
+            "tagline" : "Payperless is an online payment service provider that helps merchants receive payments online.",
+            "short_desc" : "Payment Service",
+            "images" : [ "payperless_transaction.PNG", "payperless_transaction2.png", "payperless_invoice.png"],
+            "metadata" : [
+                {
+                    "title" : "Idea",
+                    "details" : "Payperless helps merchants easily recieve payments online through a simple and unique payment link. Merchants can also create and keep track of invoices and payments "
+                }
+            ],
+            "process": ["Sketch", "Wireframe", "Design",  "Develop", "Bug Test", "Launch"],
+            "role" : "Front & Back end ",
+            "client" : "Pet Project ",
+            "date": "Dec 2019",
+            "link" : "https://payperlessng.herokuapp.com",
+            "categories"  : "Webapp, Online Payment, MERN App, Invoicing"
+        },
+        {
+            "id" : "5",
             "name" : "QWRY Games",
             "tagline" : "An online suite of word and dictionary games (PWA)",
             "short_desc" : "Online game",
-            "images" : [ "testonion.PNG", "testonion.PNG", "testonion-mobile.PNG"],
+            "images" : ["qwry_games_1.png", "qwry_games_2.png", "qwry_games_3.png"],
             "metadata" : [
                 
                 {
@@ -79,25 +98,7 @@
             "date": "Sept 2019",
             "link" : "https://bit.ly/QWRY-Games",
             "categories"  : "Webapp, Games, PWA"
-        },
-        {
-            "id" : "5",
-            "name" : "Payperless",
-            "tagline" : "Payperless is an online payment service provider that helps merchants receive payments online.",
-            "short_desc" : "Payment Service",
-            "images" : [ "payperless_transaction.png", "payperless_transaction2.png", "payperless_invoice.png"],
-            "metadata" : [
-                {
-                    "title" : "Idea",
-                    "details" : "Payperless helps merchants easily recieve payments online through a simple and unique payment link. Merchants can also create and keep track of invoices and payments "
-                }
-            ],
-            "process": ["Sketch", "Wireframe", "Design",  "Develop", "Bug Test", "Launch"],
-            "role" : "Front & Back end ",
-            "client" : "Pet Project ",
-            "date": "Dec 2019",
-            "link" : "https://payperlessng.herokuapp.com",
-            "categories"  : "Webapp, Online Payment, MERN App, Invoicing"
         }
+      
     ]
 }

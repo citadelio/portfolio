@@ -1,4 +1,4 @@
-import React, {Fragment, useContext } from "react";
+import React, {useContext } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import {Link} from 'react-router-dom'
@@ -7,7 +7,7 @@ import {ProjectsContext} from '../context/projectsContext'
 const Portfolio = () => {
 	const {projects} = useContext(ProjectsContext);
   return (
-    <Fragment>
+    <>
       <Header page="portfolio" />
       <section className="module page-head portfolio-banner">
         <div className="mini-container">
@@ -25,7 +25,7 @@ const Portfolio = () => {
 					<li className="list-item" key={project.id} data-groups="all slideshow">
 					<Link to={`/portfolio/${encodeURI((project.name).toLowerCase())}`}>
 					  <div className="list-item-img">
-						<img src={`./assets/images/portfolio/${project.images[0]}`} alt={`${project.images[0]}`} />
+						<img src={`../assets/images/portfolio/${project.images[0]}`} alt={`${project.images[0]}`} />
 					  </div>
 					  <div className="figcaption">
 						<div className="caption-inner">
@@ -43,7 +43,7 @@ const Portfolio = () => {
       </section>
 
       <Footer />
-			</Fragment>
+			</>
   );
 };
 

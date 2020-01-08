@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const About = () => {
     return (
-        <React.Fragment>
+        <>
             <Header page='about'/>
             <section className="module page-head">
                 <div className="mini-container">
@@ -35,10 +35,10 @@ const About = () => {
 					<div className="col-md-8">
 						<p>I'm a Software developer based in Port Harcourt, Nigeria.</p>
 						
-						<p> Growing up during the early years of broadband penetration in Nigeria, My Dad had just got this new mobile phone with a 2G internet connection. I'll frequently take his phone without his knowledge and surf through myriads of contents on the internet (Most time's I got busted when the phone rings, until I learnt there was a mute setting). That little feature phone pricked my interest for Technology, the Internet and Softwares </p>
+						<p> Growing up during the early years of broadband penetration in Nigeria, My dad had just got this new mobile phone with a 2G internet connection. I'll frequently take his phone without his knowledge and surf through myriads of contents on the internet (Most times I got busted when the phone rings, until I learnt there was a mute setting). That little feature phone pricked my interest for Technology, the Internet and Softwares </p>
 						<br/>
 						<p>
-							Several years later, I had gotten myself a PC, taught myself to code, and was fascinated by how powerful technology can be in changing how people live their lives. Today, I am helping drive that change by creating truly engaging and user centered experiences on the Web. 
+							Several years later, I had gotten myself a PC, taught myself to code, and was fascinated by how powerful technology can be in changing how people live their lives. Today, I am helping drive that change by creating truly engaging and user centered experiences on the Web and on Mobile. 
 						</p>
 						<br/>
 						<p>
@@ -60,12 +60,16 @@ const About = () => {
 								<p className="mb-5">I build responsive websites that are highly performant and scalable</p>
 							</div>
 							<div className="col-md-6">
+								<h3 className="mb-3">Mobile Development</h3>
+								<p className="mb-5">With proficiency in technologies like React Native and Flutter, I help make beautifully designed mobile apps for Android and iOS </p>
+							</div>
+							<div className="col-md-6">
 								<h3 className="mb-3">Social Media Marketing</h3>
 								<p className="mb-5">Giving you brand visibility and online presence </p>
 							</div>
 							<div className="col-md-6">
 								<h3 className="mb-3">Product Design</h3>
-								<p className="mb-5">So, I'm gradually making a transition into product design, basically because it is important for businesses to build customer centered products that meets the uderlying needs that these customers dont even know they have until they see such products.</p>
+								<p className="mb-5">So, I'm gradually making a transition from engineering into product design, basically because it is important for businesses to build customer centered products that meets the underlying needs of their customers.</p>
 							</div>
 						</div>
 					</div>
@@ -89,7 +93,7 @@ const About = () => {
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
 									<i className="fab fa-css3-alt"></i>
-									<span>css3</span>
+									<span>CSS3</span>
 								</div>
 							</div>
 							<div className="col-sm-3 col-6">
@@ -100,21 +104,27 @@ const About = () => {
 							</div>
                             <div className="col-sm-3 col-6">
 								<div className="tiles">
-									<i className="fab fa-bootstrap"></i>
-									<span>bootstrap</span>
+									<i className="fab fa-vuejs"></i>
+									<span>VueJs</span>
 								</div>
 							</div>
 						
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
 									<i className="fab fa-react"></i>
-									<span>React</span>
+									<span>ReactJs</span>
 								</div>
 							</div>
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
 									<i className="fab fa-react"></i>
 									<span>React Native</span>
+								</div>
+							</div>
+							<div className="col-sm-3 col-6">
+								<div className="tiles">
+									<i className="fab fa-redux"></i>
+									<span>Redux</span>
 								</div>
 							</div>
 							<div className="col-sm-3 col-6">
@@ -137,6 +147,7 @@ const About = () => {
 									<span>Laravel</span>
 								</div>
 							</div>							
+														
 						</div>
 					</div>
 				</div>
@@ -145,7 +156,7 @@ const About = () => {
 		</div>
 	</section>
             <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 
