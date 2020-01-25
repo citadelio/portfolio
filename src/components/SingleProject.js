@@ -49,7 +49,7 @@ import {ProjectsContext} from '../context/projectsContext'
 	<section className="module page-head">
 		<div className="mini-container">
 			<p className="sub-head">
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/portfolio">Go Back</Link>
             </p>
 			<h1>{currentProject.tagline }</h1>
 		</div>
@@ -57,7 +57,7 @@ import {ProjectsContext} from '../context/projectsContext'
 
 	<section className="projectDesc-wrapper">
 		<div className="custom-container">
-			<div className="project-banner" id="">
+			<div className="project-banner single-project-banner" id="">
 			{ componentLoaded ?
 				<img className="" src={`/assets/images/portfolio/${currentProject.images[1]}`} alt={currentProject.name}/>
 				: null

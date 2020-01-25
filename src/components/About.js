@@ -23,7 +23,7 @@ const About = () => {
 	<section className="about-wrapper">
 		<div className="custom-container">
 			<div className="about-banner" id="parallax">
-				<img className="d-none" src="/assets/images/hussein.jpeg" alt="Hussein Warrake"/>
+				<img className="d-none" src="../assets/images/hussein.jpeg" alt="Hussein Warrake"/>
 			</div>
 
 
@@ -35,7 +35,7 @@ const About = () => {
 					<div className="col-md-8">
 						<p>I'm a Software developer based in Port Harcourt, Nigeria.</p>
 						
-						<p> Growing up during the early years of broadband penetration in Nigeria, My dad had just got this new mobile phone with a 2G internet connection. I'll frequently take his phone without his knowledge and surf through myriads of contents on the internet (Most times I got busted when the phone rings, until I learnt there was a mute setting). That little feature phone pricked my interest for Technology, the Internet and Softwares </p>
+						<p> Growing up during the early years of broadband penetration in Nigeria, My dad had just got this new mobile phone with a 2G internet connection. I'd frequently take his phone without his knowledge and surf through myriads of contents on the internet (Most times I got busted when the phone rings, until I learnt there was a mute setting). That little feature phone pricked my interest for Technology, the Internet and Softwares </p>
 						<br/>
 						<p>
 							Several years later, I had gotten myself a PC, taught myself to code, and was fascinated by how powerful technology can be in changing how people live their lives. Today, I am helping drive that change by creating truly engaging and user centered experiences on the Web and on Mobile. 

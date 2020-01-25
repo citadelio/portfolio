@@ -11,7 +11,8 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run dev-server\" \"npm run dev\"",
+    "both": "concurrently \"npm run dev-server\" \"npm run dev\"",
+    "start": "npm run dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

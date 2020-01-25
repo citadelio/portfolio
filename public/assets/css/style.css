@@ -1049,6 +1049,11 @@ body:hover #follower {
     width: 100%;
     transition: all 2s ease 0s;
 }
+.single-project-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .pagewrap-work {
     background: #2588f6;
@@ -1233,6 +1238,10 @@ body:hover #follower {
 {
     .portfolio-grid li:first-child img{
             width: 50%;
+            margin:0 auto;
+    }
+    .portfolio-grid li:nth-child(5){
+        width: 50%;
             margin:0 auto;
     }
 }
