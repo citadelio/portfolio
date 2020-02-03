@@ -63,10 +63,10 @@ const Blog = () => {
     )
     :
     (
-        <>
-        <h2>No BlogPost yet</h2>
+        <section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+        <h4>No BlogPost yet</h4>
         <Link to="/portfolio"> <button className="btn btn-blue btn-contact" type="button">See my portfolio</button> </Link>
-        </>
+        </section>
     )
     }
              
