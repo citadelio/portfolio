@@ -1,22 +1,5 @@
 {
    "posts" : [
-    {
-        "id":"3",
-        "url":"https://medium.com",
-        "title":"My third blog post",
-        "body":"this is the body of my third blogpost"
-    },
-    {
-        "id":"2",
-        "url":"https://medium.com",
-        "title":"My second blog post",
-        "body":"this is the body of my second blogpost"
-    },
-    {
-        "id":"1",
-        "url":"https://medium.com",
-        "title":"My first blog post",
-        "body":"this is the body of my first blogpost"
-    }
+    
    ]
 }
