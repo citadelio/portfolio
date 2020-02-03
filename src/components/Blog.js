@@ -1,24 +1,28 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import {ReactComponent as Illustration} from '../blog-under-development.svg'
 import {Link} from 'react-router-dom'
+import {BlogPostsContext} from '../context/blogpostsContext'
+import BlogPostTile from "./BlogPostTile"
+
 
 const Blog = () => {
+    const {posts} = useContext(BlogPostsContext);
     return (
-        <React.Fragment>
+        <>
             <Header page='blog'/>
              <section className="blog-wrapper">
                     <div className="custom-container">
                         <div className="row align-items-center">
                         <div className="col-md-5 col-md-push-7">
                                 <div className="page-head">
-                                    <p className="sub-head"> Errr... My Blog isn't ready yet </p>
-                                    <h1>I'm still working on it</h1>
-                                    <p style={{margin:"50px 0 0 0", textAlign:"justify"}}>
-                                    Meanwhile, you can take a look at some of the projects I have worked on recently.
+                                    <p className="sub-head"> Welcome to my thought process</p>
+                                    <h1>Good reads ahead</h1>
+                                   <p style={{margin:"50px 0 0 0", textAlign:"justify"}}>
+                                    I write about all things technology, programming and every other stuff related to computers
                                     </p>
-                                    <Link to="/portfolio"> <button className="btn btn-blue btn-contact" type="button">See my Portfolio</button> </Link>
+                                 
                                 </div>
                             </div>
 
@@ -35,8 +39,25 @@ const Blog = () => {
 
                  
                 </section>
+                <section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+		<div className="custom-container">
+			<div className="about-desc">
+				<div className="row">
+					<div className="col-md-12">
+						<ul>
+							{
+								posts.map((post, key)=>(<BlogPostTile key={key} url={post.url} title={post.title} body={post.body}/>
+								))
+							}
+						</ul>
+					</div>
+				</div>
+			</div>
+
+</div>
+</section>
             <Footer/>
-        </React.Fragment>
+        </>
     )
 }
 

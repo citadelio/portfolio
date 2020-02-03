@@ -1713,10 +1713,19 @@ footer {
     }
    
 }
+@media (max-width: 459px) {
+    .hide-on-xs{
+        display: none;
+    }
+   
+}
 .btn{
     display:unset;
 }
 .blog-desc{
     margin: 0 15px 50px 15px;
     text-align: justify;
+}
+.tileList:not(:last-child){
+    border-bottom:1px solid #efefef;
 }

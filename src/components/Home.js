@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import {Link} from 'react-router-dom'
+import BlogPostTile from "./BlogPostTile"
+import {BlogPostsContext} from '../context/blogpostsContext'
 const Home = () => {
+	const {posts} = useContext(BlogPostsContext);
     return (
         <>
           
@@ -58,6 +61,31 @@ const Home = () => {
 		</div>
 	</section>
 
+	<section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+		<div className="custom-container">
+			<div className="about-desc">
+				<div className="row">
+					<div className="col-md-12" >
+						<h3 className="" style={{fontWeight:300}}>I write too...</h3>
+					</div>
+					<div className="col-md-12">
+						<ul>
+							{
+								posts.map((post, key)=> key < 5 ?(
+									<BlogPostTile key={key} url={post.url} title={post.title} body={post.body}/>
+								): "")
+							}
+							
+							
+							
+						</ul>
+						    <Link to="/blog"> <button className="btn btn-blue btn-contact" type="button">See more blogposts</button> </Link>
+					</div>
+				</div>
+			</div>
+
+</div>
+</section>
     
 <Footer/>
         </>

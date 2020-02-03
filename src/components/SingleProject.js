@@ -42,7 +42,7 @@ import {ProjectsContext} from '../context/projectsContext'
 
 },[componentLoaded])
     return (
-        <React.Fragment>
+        <>
              <Header page="portfolio" />
              
              
@@ -118,7 +118,7 @@ import {ProjectsContext} from '../context/projectsContext'
 		</div>
 	</section>
              <Footer />
-        </React.Fragment>
+        </>
     )
 }
 

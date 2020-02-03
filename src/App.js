@@ -7,20 +7,24 @@ import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
 import SingleProject from './components/SingleProject'
 import ProjectsContextProvider from './context/projectsContext'
+import BlogPostsContextProvider from './context/blogpostsContext'
 
 const App = () => {
   return (
    
     <Router>
       {/* <Switch> */}
+      <BlogPostsContextProvider>
           <Route path="/" component={Home} exact/>
+          <Route path="/blog" component={Blog}/>
+      </BlogPostsContextProvider>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
-          <ProjectsContextProvider>
+      <ProjectsContextProvider>
           <Route path="/portfolio" component={Portfolio} exact/>
           <Route path="/portfolio/:id" component={SingleProject}/>
-          </ProjectsContextProvider>
-          <Route path="/blog" component={Blog}/>
+      </ProjectsContextProvider>
+         
       {/* </Switch> */}
     </Router>
     

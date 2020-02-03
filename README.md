@@ -1,1 +1,1 @@
-This project is a portfolio website. It is an offline first Progressive Web App (PWA) and is installable on your device. Available at https://husseinwarrake.com
+This project is a portfolio/blog website. It is an offline first Progressive Web App (PWA) and is installable on your device. Available at https://husseinwarrake.com

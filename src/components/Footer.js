@@ -23,7 +23,7 @@ const Footer = () => {
 									(234) 903 9951 233
 								</a>
 							</li>
-							|
+							<span className="hide-on-xs">|</span>
 							<li className="list-inline-item">
 								<a href="mailto:husseinwarrake@gmail.com" style={{fontSize:16}}>
 									husseinwarrake@gmail.com
