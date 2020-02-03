@@ -61,7 +61,10 @@ const Home = () => {
 		</div>
 	</section>
 
-	<section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+{
+	posts.length > 0
+	?(
+<section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
 		<div className="custom-container">
 			<div className="about-desc">
 				<div className="row">
@@ -79,13 +82,18 @@ const Home = () => {
 							
 							
 						</ul>
-						    <Link to="/blog"> <button className="btn btn-blue btn-contact" type="button">See more blogposts</button> </Link>
+						    <Link to="/blog"> <button className="btn btn-blue btn-contact" type="button">See blogposts</button> </Link>
 					</div>
 				</div>
 			</div>
 
 </div>
 </section>
+	)
+	:
+	null
+}
+	
     
 <Footer/>
         </>
