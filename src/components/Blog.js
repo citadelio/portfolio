@@ -39,7 +39,11 @@ const Blog = () => {
 
                  
                 </section>
-                <section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+
+                {
+	posts.length > 0
+	?(
+        <section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
 		<div className="custom-container">
 			<div className="about-desc">
 				<div className="row">
@@ -56,6 +60,16 @@ const Blog = () => {
 
 </div>
 </section>
+    )
+    :
+    (
+        <>
+        <h2>No BlogPost yet</h2>
+        <Link to="/portfolio"> <button className="btn btn-blue btn-contact" type="button">See my portfolio</button> </Link>
+        </>
+    )
+    }
+             
             <Footer/>
         </>
     )

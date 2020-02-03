@@ -82,7 +82,7 @@ const Home = () => {
 							
 							
 						</ul>
-						    <Link to="/blog"> <button className="btn btn-blue btn-contact" type="button">See blogposts</button> </Link>
+						    <Link to="/blog"> <button className="btn btn-blue btn-contact" type="button">See more blogposts</button> </Link>
 					</div>
 				</div>
 			</div>
