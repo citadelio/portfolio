@@ -64,8 +64,13 @@ const Blog = () => {
     :
     (
         <section className="" style={{backgroundColor:"ghostwhite", padding:"50px 0"}}>
+            <div className="custom-container">
+			<div className="about-desc">
+				<div className="row">
+					<div className="col-md-12">
         <h4>No BlogPost yet</h4>
         <Link to="/portfolio"> <button className="btn btn-blue btn-contact" type="button">See my portfolio</button> </Link>
+        </div></div></div></div>
         </section>
     )
     }
