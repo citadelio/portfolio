@@ -20,8 +20,7 @@ const Portfolio = () => {
         <div className="container">
           <ul className="list-items-container portfolio-grid" style={{marginTop:0}}>
 				{projects.map(
-		project => {
-			return (
+		project => (
 					<li className="list-item" key={project.id} data-groups="all slideshow">
 					<Link to={`/portfolio/${encodeURI((project.name).toLowerCase())}`}>
 					  <div className="list-item-img">
@@ -36,7 +35,6 @@ const Portfolio = () => {
 					</Link>
 				  </li>
 				)
-		}
 	)}
           </ul>
         </div>

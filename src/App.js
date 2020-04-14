@@ -8,12 +8,14 @@ import Blog from './components/Blog';
 import SingleProject from './components/SingleProject'
 import ProjectsContextProvider from './context/projectsContext'
 import BlogPostsContextProvider from './context/blogpostsContext'
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
    
     <Router>
       {/* <Switch> */}
+      <ScrollToTop>
       <BlogPostsContextProvider>
           <Route path="/" component={Home} exact/>
           <Route path="/blog" component={Blog}/>
@@ -24,7 +26,7 @@ const App = () => {
           <Route path="/portfolio" component={Portfolio} exact/>
           <Route path="/portfolio/:id" component={SingleProject}/>
       </ProjectsContextProvider>
-         
+      </ScrollToTop>
       {/* </Switch> */}
     </Router>
     

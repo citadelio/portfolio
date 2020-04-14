@@ -22,23 +22,23 @@
         },
         {
             "id" : "2",
-            "name" : "KetMart",
-            "tagline" : "eCommerce website with a loyalty feature",
-            "short_desc" : "eCommerce Website",
-            "images" : [ "ketmart.PNG", "ketmart.PNG", "ketmart-mobile.PNG"],
+            "name" : "ViralSpring",
+            "tagline" : "Social community for online advertising",
+            "short_desc" : "Social Network",
+            "images" : [ "viralspring.png", "viralspring1.png"],
             "metadata" : [
                 {
                     "title" : "Idea",
-                    "details" : "eCommerce site that allows people list products and receive payments online."
+                    "details" : "ViraSpring is a tool that helps vendors get new customers everyday by allowing vendors advertise for FREE and the adverts are promoted by other vendors to their followers on different social networks"
                 }
                
             ],
             "process": ["Sketch",  "Wireframe","Design", "Develop", "Bug Test", "Launch"],
             "role" : "Front & Back end",
-            "client" : "Ketmart",
-            "date": "Aug 2019",
-            "link" : "https://www.ketmart.com/",
-            "categories"  : "Website, eCommerce"
+            "client" : "ViralSpring",
+            "date": "Jan & Feb 2020",
+            "link" : "https://www.viralspring.org/",
+            "categories"  : "Website, Social Network"
         },
         {
             "id" : "3",
