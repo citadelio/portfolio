@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 import {ProjectsContext} from '../context/projectsContext'
 
  const SingleProject = ({match}) => {
-	
+	const projectName = match.params.id;
 	 const projects = useContext(ProjectsContext)
      const [currentProject, setCurrentProject] = useState({})
      const [metaData, setmetaData] = useState('')
@@ -13,7 +13,7 @@ import {ProjectsContext} from '../context/projectsContext'
      const [componentLoaded, setComponentLoaded] = useState(false)
      useEffect(()=>{
 		let thisProject;
-		const projectName = match.params.id;
+		
 		projects.projects.map(project=>{
         if(project.name.toLowerCase() === projectName){
 			thisProject = project;

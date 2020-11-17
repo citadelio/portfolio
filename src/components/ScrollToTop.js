@@ -1,5 +1,5 @@
-import React, { useEffect, Fragment} from 'react'
-import { withRouter, useLocation} from 'react-router-dom'
+import { useEffect} from 'react'
+import {useLocation} from 'react-router-dom'
 const ScrollToTop = () => {
     // useEffect(() => {
     //     const unlisten = history.listen(()=>{
