@@ -148,6 +148,12 @@ const About = () => {
 									<span>CakePHP</span>
 								</div>
 							</div>							
+							<div className="col-sm-3 col-6">
+								<div className="tiles">
+									<i className="fab fa-nextjs"></i>
+									<span>NextJS</span>
+								</div>
+							</div>							
 														
 						</div>
 					</div>

@@ -15,7 +15,7 @@ const App = () => {
    
     <Router>
       {/* <Switch> */}
-      <ScrollToTop>
+      <ScrollToTop/>
       <BlogPostsContextProvider>
           <Route path="/" component={Home} exact/>
           <Route path="/blog" component={Blog}/>
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/portfolio" component={Portfolio} exact/>
           <Route path="/portfolio/:id" component={SingleProject}/>
       </ProjectsContextProvider>
-      </ScrollToTop>
+      {/* </ScrollToTop> */}
       {/* </Switch> */}
     </Router>
     
