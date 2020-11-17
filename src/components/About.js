@@ -150,7 +150,7 @@ const About = () => {
 							</div>							
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
-									<i className="fab fa-nextjs"></i>
+									<i className="fab fa-js-square"></i>
 									<span>NextJS</span>
 								</div>
 							</div>							
