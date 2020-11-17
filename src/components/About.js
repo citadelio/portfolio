@@ -102,12 +102,6 @@ const About = () => {
 									<span>Javascript</span>
 								</div>
 							</div>
-                            <div className="col-sm-3 col-6">
-								<div className="tiles">
-									<i className="fab fa-vuejs"></i>
-									<span>VueJs</span>
-								</div>
-							</div>
 						
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
@@ -121,6 +115,12 @@ const About = () => {
 									<span>React Native</span>
 								</div>
 							</div>
+							<div className="col-sm-3 col-6">
+								<div className="tiles">
+									<i className="fab fa-js-square"></i>
+									<span>NextJS</span>
+								</div>
+							</div>	
 							
 							<div className="col-sm-3 col-6">
 								<div className="tiles">
@@ -148,12 +148,7 @@ const About = () => {
 									<span>CakePHP</span>
 								</div>
 							</div>							
-							<div className="col-sm-3 col-6">
-								<div className="tiles">
-									<i className="fab fa-js-square"></i>
-									<span>NextJS</span>
-								</div>
-							</div>							
+													
 														
 						</div>
 					</div>
