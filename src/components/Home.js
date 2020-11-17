@@ -26,28 +26,28 @@ const Home = () => {
 			<div className="hero-social">
 				<ul className="d-flex">
                 <li className="flex-fill">
-						<a href="https://github.com/citadelio" className="ease-3">
+						<a href="https://github.com/citadelio" target="_blank" className="ease-3">
 							<i className="fab fa-github ease-3"></i>
 							<span>Github</span>
 						</a>
 					</li>
 
 					<li className="flex-fill">
-						<a href="https://twitter.com/Citadel50" className="ease-3">
+						<a href="https://twitter.com/sudo_hussein" target="_blank" className="ease-3">
 							<i className="fab fa-twitter ease-3"></i>
 							<span>Twitter</span>
 						</a>
 					</li>
 					
 					<li className="flex-fill">
-						<a href="https://www.facebook.com/Warrake.H" className="ease-3">
+						<a href="https://www.facebook.com/Warrake.H" target="_blank" className="ease-3">
 							<i className="fab fa-facebook ease-3"></i>
 							<span>Facebook</span>
 						</a>
 					</li>
 					
                     <li className="flex-fill">
-						<a href="https://wa.me/2349039951233?text=Hi%20Hussein,%20I'm%20coming%20from%20your%20personal%20website%20-ENTER%20YOUR%20MESSAGE%20HERE-" className="ease-3">
+						<a href="https://wa.me/2349039951233?text=Hi%20Hussein,%20I'm%20coming%20from%20your%20personal%20website%20-ENTER%20YOUR%20MESSAGE%20HERE-" target="_blank" className="ease-3">
 							<i className="fab fa-whatsapp ease-3"></i>
 							<span>Whatsapp</span>
 						</a>

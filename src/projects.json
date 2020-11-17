@@ -2,9 +2,50 @@
     "projects" : [
         {
             "id" : "1",
+            "name" : "ZAPP",
+            "tagline" : "Challenge your friends in a game from anywhere in the world",
+            "short_desc" : "Mobile Game | Android App",
+            "images" : ["zapp-home.png", "zapp-banner.png"],
+            "metadata" : [
+              
+                {
+                    "title" : "Idea",
+                    "details" : "Challenge your friends or random players from anywhere in the world and get ready to battle. We all love to play games, we enjoy it, it's fun!. We also believe it should be rewarding too. Now it is!! That's why we created ZAPP. "
+                }
+            ],
+            "process": [ "Design", "Develop", "Bug Test", "Launch"],
+            "role" : "MobileApp, API, Back End",
+            "client" : "ZAPP Mobile",
+            "date": "May 2020",
+            "link" : "https://www.getzapp.xyz",
+            "categories"  : "ReactNative, NodeJS, MobileApp, Gaming"
+        },
+        {
+            "id" : "2",
+            "name" : "Tweepster",
+            "tagline" : "Supercharge your tweets with additional features.",
+            "short_desc" : "Twitter Client | Android App",
+            "images" : ["tweepster-home.png", "tweepster-banner.png"],
+            "metadata" : [
+              
+                {
+                    "title" : "Idea",
+                    "details" : "Tweepster is a Twitter client app with additional features that lets you ad your Tweets stand out. Use Tweepster to add custom labels and lots more. Tweepster is a Twitter client app with cool features that lets you and your Tweets stand out."
+                }
+            ],
+            "process": [ "Design", "Develop", "Bug Test", "Launch"],
+            "role" : "Full Stack",
+            "client" : "Pet Project",
+            "date": "September 2020",
+            "link" : "https://play.google.com/store/apps/details?id=com.tweepster",
+            "categories"  : "ReactNative, NodeJS, Android"
+        },
+       
+        {
+            "id" : "3",
             "name" : "NebulaPay",
             "tagline" : "NebulaPay is a Secure Conversational Payment ChatBot ",
-            "short_desc" : "Social Payment ChatBot",
+            "short_desc" : "Social Payment Bot | ChatBot & Android App",
             "images" : ["nebulapay-mobile.PNG", "nebulapay.PNG"],
             "metadata" : [
               
@@ -21,10 +62,10 @@
             "categories"  : "Website, Fintech, ChatApp"
         },
         {
-            "id" : "2",
+            "id" : "4",
             "name" : "ViralSpring",
             "tagline" : "Social community for online advertising",
-            "short_desc" : "Social Network",
+            "short_desc" : "Social Network | WebApp",
             "images" : [ "viralspring.png", "viralspring1.png"],
             "metadata" : [
                 {
@@ -41,10 +82,10 @@
             "categories"  : "Website, Social Network"
         },
         {
-            "id" : "3",
+            "id" : "5",
             "name" : "TestOnion",
             "tagline" : "Online testing platform for scheduling tests and grading candidates",
-            "short_desc" : "Testing & Assesment Tool",
+            "short_desc" : "Testing & Assesment Tool | WebApp",
             "images" : [ "testonion.PNG", "testonion.PNG", "testonion-mobile.PNG"],
             "metadata" : [
                 
@@ -61,29 +102,29 @@
             "categories"  : "Website, Educational, Recruitment"
         },
         {
-            "id" : "4",
-            "name" : "Payperless",
-            "tagline" : "Payperless is an online payment service provider that helps merchants receive payments online.",
-            "short_desc" : "Payment Service",
-            "images" : [ "payperless_transaction.PNG", "payperless_transaction2.png", "payperless_invoice.png"],
+            "id" : "6",
+            "name" : "Ketmart",
+            "tagline" : "Shop Online with Confidence.",
+            "short_desc" : "Classified Ads site| WebApp",
+            "images" : [ "ketmart.PNG", "ketmart.PNG"],
             "metadata" : [
                 {
                     "title" : "Idea",
-                    "details" : "Payperless helps merchants easily recieve payments online through a simple and unique payment link. Merchants can also create and keep track of invoices and payments "
+                    "details" : "KetMart is a leading Nigerian free online classified site with advanced security system. We provide a simple hassle-free solution to sell and buy almost anything."
                 }
             ],
             "process": ["Sketch", "Wireframe", "Design",  "Develop", "Bug Test", "Launch"],
             "role" : "Front & Back end ",
             "client" : "Pet Project ",
-            "date": "Dec 2019",
-            "link" : "https://www.payperlessng.herokuapp.com",
-            "categories"  : "Webapp, Online Payment, MERN App, Invoicing"
+            "date": "June 2019",
+            "link" : "https://ketmart.000webhostapp.com",
+            "categories"  : "Webapp, PHP, CakePHP, Classified Ads"
         },
         {
-            "id" : "5",
+            "id" : "7",
             "name" : "QWRY Games",
             "tagline" : "An online suite of word and dictionary games (PWA)",
-            "short_desc" : "Online game",
+            "short_desc" : "Online game | PWA",
             "images" : ["qwry_games_1.png", "qwry_games_2.png", "qwry_games_3.png"],
             "metadata" : [
                 
@@ -98,7 +139,25 @@
             "date": "Sept 2019",
             "link" : "https://bit.ly/QWRY-Games",
             "categories"  : "Webapp, Games, PWA"
+        },
+        {
+            "id" : "8",
+            "name" : "Payperless",
+            "tagline" : "Payperless is an online payment service provider that helps merchants receive payments online.",
+            "short_desc" : "Payment Service | WebApp",
+            "images" : [ "payperless_transaction.PNG", "payperless_transaction2.png", "payperless_invoice.png"],
+            "metadata" : [
+                {
+                    "title" : "Idea",
+                    "details" : "Payperless helps merchants easily recieve payments online through a simple and unique payment link. Merchants can also create and keep track of invoices and payments "
+                }
+            ],
+            "process": ["Sketch", "Wireframe", "Design",  "Develop", "Bug Test", "Launch"],
+            "role" : "Front & Back end ",
+            "client" : "Pet Project ",
+            "date": "Dec 2019",
+            "link" : "https://www.payperlessng.herokuapp.com",
+            "categories"  : "Webapp, Online Payment, MERN App, Invoicing"
         }
-      
     ]
 }
